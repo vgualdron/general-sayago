@@ -1,0 +1,23 @@
+// Custom styles for this template
+
+.card, .social-box {
+  border-top-width: 0;
+  border-bottom-width: 2 * $card-border-width;
+}
+
+[class*="card-outline-"] {
+  border-top-width: 1px !important;
+}
+
+[class*="card-accent-"] {
+  border-top-width: 2px !important;
+}
+
+.aside-menu {
+  .nav-tabs .nav-link,
+  .callout {
+    border-radius: 0;
+  }
+}
+
+// Here you can add other styles

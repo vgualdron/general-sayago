@@ -1,0 +1,54 @@
+
+.app-header.navbar .navbar-brand {
+	background-size: 200px auto;
+}
+
+.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+	z-index: 10;
+}
+
+.ql-snow .ql-tooltip {
+	z-index: 10000;
+}
+
+.form-control, .custom-file-control {
+	border-color: rgba(60, 60, 60, 0.26);
+}
+
+.custom-file-control::after {
+    content: '' !important;
+}
+
+.custom-file-control::before {
+    content: 'Adjuntar Archivo' !important;
+}
+
+.font22 {
+  font-size: 22px;
+}
+
+.font30 {
+  font-size: 22px;
+}
+
+.font36 {
+  font-size: 22px;
+}
+
+.font48 {
+  font-size: 22px;
+}
+
+/** Ajuste al alto del menu lateral */
+.sidebar nav.sidebar-nav ul.nav li div {
+  line-heigth: 1;
+}
+.sidebar nav.sidebar-nav ul.nav li div a {
+  padding: 0.6em;
+}
+.sidebar nav.sidebar-nav ul.nav li div.nav-link {
+  padding: 0.6em;
+}
+.sidebar nav.sidebar-nav ul.nav li.nav-title {
+  padding: 0.6em;
+}
